@@ -2,7 +2,18 @@
 
 A hearty pasta salad by @grossypelosi featuring baby kale and a homemade Caesar dressing.
 
-**Macros:** Not specified
+**Protein:** None | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet, Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Salt and black pepper
@@ -28,4 +39,5 @@ A hearty pasta salad by @grossypelosi featuring baby kale and a homemade Caesar 
 5. Add cooled pasta and 1 1/2 cups of the dressing and toss until well mixed. Cover and refrigerate for at least 4 hours.
 6. Before serving, add Parmesan shavings, half of the breadcrumbs, and extra dressing as needed. Garnish with remaining breadcrumbs.
 
+**Original Macros:** 
 **Source Files:** IMG_0114.PNG

@@ -2,7 +2,18 @@
 
 A quick and spicy noodle dish featuring both tofu and chicken for high protein content.
 
-**Macros:** Over 50g protein, low calorie
+**Protein:** Chicken | **Dairy-Free:** Yes | **Prep Time:** 15 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch, Quick / Under 20 Mins
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts, Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** 50.0g
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Chicken breast
@@ -44,4 +55,5 @@ A quick and spicy noodle dish featuring both tofu and chicken for high protein c
 10. Cook the udon noodles according to package instructions.
 11. Plate the noodles, pour over the sauce, and top with chicken on one side and the cucumber/herb salad on the other. Finish with sesame seeds.
 
+**Original Macros:** Over 50g protein, low calorie
 **Source Files:** 1e1d2157006c49e59a5f0e5e04e0a315.aac, 8ae2c192853e4ca4baac1aae8bffeb6e.m4a, IMG_0141.PNG, IMG_0142.PNG

@@ -2,7 +2,18 @@
 
 Creamy, cozy fusion mac and cheese packed with bold Indian flavors.
 
-**Macros:** Not specified
+**Protein:** None | **Dairy-Free:** No | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Pasta
@@ -28,4 +39,5 @@ Creamy, cozy fusion mac and cheese packed with bold Indian flavors.
 5. Top with more cheese and breadcrumbs.
 6. Bake until golden brown.
 
+**Original Macros:** Not specified
 **Source Files:** 0eef643a08a94d98b98002b1d7219155.aac

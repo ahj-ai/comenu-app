@@ -2,7 +2,18 @@
 
 A macro-friendly version of a massive triple-patty burger with a custom lower-calorie sauce.
 
-**Macros:** 435 Calories | 50.6g Protein | 20g Fat | 22g Carbs
+**Protein:** Beef | **Dairy-Free:** No | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Target
+
+## Normalized Macros
+- **Calories:** 435.0
+- **Protein:** 50.6g
+- **Carbs:** 22.0g
+- **Fat:** 20.0g
 
 ## Ingredients
 - 200g 93/7 lean beef (three 70g patties)
@@ -22,4 +33,5 @@ A macro-friendly version of a massive triple-patty burger with a custom lower-ca
 5. Prepare the sauce by mixing all sauce ingredients together.
 6. Assemble the burger on a keto bun with lettuce, tomato, the three patties, and the special sauce.
 
+**Original Macros:** 435 Calories | 50.6g Protein | 20g Fat | 22g Carbs
 **Source Files:** IMG_0169.PNG

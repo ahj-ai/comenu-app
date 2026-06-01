@@ -2,7 +2,18 @@
 
 A macro-friendly, high-protein version of the famous Chick-Fil-A sauce using Greek yogurt.
 
-**Macros:** 26g protein per jar, low calorie
+**Protein:** None | **Dairy-Free:** No | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Snack / Sweet Tooth
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** 26.0g
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Non-fat Greek yogurt
@@ -29,4 +40,5 @@ A macro-friendly, high-protein version of the famous Chick-Fil-A sauce using Gre
 4. Add milk if a thinner consistency is desired.
 5. Enjoy as a dip or sandwich spread.
 
+**Original Macros:** 26g protein per jar, low calorie
 **Source Files:** 14885a42f48b4e69835e4400d4bf4658.aac, IMG_0154.PNG

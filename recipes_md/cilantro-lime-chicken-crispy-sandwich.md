@@ -2,7 +2,18 @@
 
 A crispy air-fried chicken sandwich featuring a sweet and tangy cilantro lime sauce and a fresh cucumber salad.
 
-**Macros:** Total: 45g Protein. Chicken: 184 cals/40g P. Sauce: 120 cals. Bread: 115 cals/5g P
+**Protein:** Chicken | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus, Healthy Fats / Recovery
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** 184.0
+- **Protein:** 45.0g
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Chicken breast
@@ -18,4 +29,5 @@ A crispy air-fried chicken sandwich featuring a sweet and tangy cilantro lime sa
 4. Prepare cucumber salad by slicing vegetables and shaking with the other ingredients.
 5. Assemble the sandwich on ciabatta bread with the crispy chicken, reduced sauce, and cucumber salad.
 
+**Original Macros:** Total: 45g Protein. Chicken: 184 cals/40g P. Sauce: 120 cals. Bread: 115 cals/5g P
 **Source Files:** IMG_0172.PNG

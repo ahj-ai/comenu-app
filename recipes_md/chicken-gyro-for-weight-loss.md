@@ -2,7 +2,18 @@
 
 A macro-friendly, low-calorie version of a classic chicken gyro with homemade tzatziki.
 
-**Macros:** Macro-friendly, low-calorie
+**Protein:** Chicken | **Dairy-Free:** No | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet, Bowl / Multi-Component
+- **Macro Profile:** High-Volume Low-Cal, Healthy Fats / Recovery
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Low-fat yogurt
@@ -32,4 +43,5 @@ A macro-friendly, low-calorie version of a classic chicken gyro with homemade tz
 6. Assemble on toasted pita with tzatziki, onions, chicken, and tomatoes.
 7. Toast the assembled gyro in a bit of avocado oil.
 
+**Original Macros:** Macro-friendly, low-calorie
 **Source Files:** 0284c63820684a47b834975aba38e807.m4a

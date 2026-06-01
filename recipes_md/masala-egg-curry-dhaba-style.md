@@ -2,7 +2,18 @@
 
 An easy-to-follow recipe for a flavorful, restaurant-style Indian egg curry.
 
-**Macros:** Not specified
+**Protein:** Egg | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - 6-7 eggs
@@ -30,4 +41,5 @@ An easy-to-follow recipe for a flavorful, restaurant-style Indian egg curry.
 6. Pour in 1.5 cups of water, cover, and cook for 15-20 minutes on medium heat to form the gravy.
 7. Finish by adding chopped cilantro and the fried eggs.
 
+**Original Macros:** Not specified
 **Source Files:** 6111e2ffc90541d4a3b5453caf5850f9.m4a

@@ -2,7 +2,18 @@
 
 A simple and spicy mapo tofu version served with udon noodles and a unique creamy tofu-peanut butter sauce.
 
-**Macros:** Not specified
+**Protein:** Beef | **Dairy-Free:** No | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Ground beef or pork
@@ -28,4 +39,5 @@ A simple and spicy mapo tofu version served with udon noodles and a unique cream
 7. Plate by placing in udon first, then your meat and chopped green scallions then tofu cream.
 8. Top with chili crisp and enjoy!
 
+**Original Macros:** Not specified
 **Source Files:** IMG_0149.PNG

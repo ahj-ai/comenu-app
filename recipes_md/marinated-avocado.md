@@ -2,7 +2,18 @@
 
 A perfect side-dish recipe for meal-prep featuring marinated avocado slices.
 
-**Macros:** Not specified
+**Protein:** None | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch
+- **Macro Profile:** Healthy Fats / Recovery
+- **Primary Stores:** Sprouts
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Avocado
@@ -23,4 +34,5 @@ A perfect side-dish recipe for meal-prep featuring marinated avocado slices.
 4. Let it rest in the fridge for about 2-3 hours.
 5. Enjoy with rice.
 
+**Original Macros:** 
 **Source Files:** IMG_0127.PNG

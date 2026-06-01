@@ -2,7 +2,18 @@
 
 A flavorful and aromatic Thai-inspired ground beef stir fry served with spicy, honey-glazed cucumbers.
 
-**Macros:** Not specified
+**Protein:** Beef | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet, Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts, Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Thai Basil Beef: 2 tbsp beef tallow, 1 yellow onion, red and green bell peppers, 1 lb lean ground beef (90/10), 3-4 tbsp minced garlic, 2 tbsp ginger paste, 3/4 cup green onions, 1.5 cups fresh basil, 1/4 cup soy sauce, 2 tbsp fish sauce, 1/4 cup honey, 2-3 tbsp brown sugar
@@ -18,4 +29,5 @@ A flavorful and aromatic Thai-inspired ground beef stir fry served with spicy, h
 6. Cook until everything is caramelized and crispy.
 7. Assemble your bowl with the beef and cucumber salad.
 
+**Original Macros:** Not specified
 **Source Files:** IMG_0174.PNG, IMG_0175.PNG

@@ -2,7 +2,18 @@
 
 A viral, spicy, umami-forward, and crunchy sushi-inspired dip and wrap made with chili crunch.
 
-**Macros:** Not specified
+**Protein:** Tuna | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Healthy Fats / Recovery
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Sushi rice (with rice vinegar, sugar, & mirin)
@@ -24,4 +35,5 @@ A viral, spicy, umami-forward, and crunchy sushi-inspired dip and wrap made with
 5. Add optional layers like spicy mayo and krab if desired.
 6. Wrap everything in a full sheet of nori.
 
+**Original Macros:** Not specified
 **Source Files:** IMG_0146.PNG

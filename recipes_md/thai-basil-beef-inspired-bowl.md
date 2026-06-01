@@ -2,7 +2,18 @@
 
 A quick, easy, and flavorful beef bowl perfect for weeknight dinners or meal prep.
 
-**Macros:** Not specified
+**Protein:** Beef | **Dairy-Free:** Yes | **Prep Time:** 15 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch, Quick / Under 20 Mins, Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts, Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Peppers
@@ -27,4 +38,5 @@ A quick, easy, and flavorful beef bowl perfect for weeknight dinners or meal pre
 5. Add soy sauce, fish sauce, honey, and brown sugar.
 6. Continue mixing and cooking until the beef is caramelized and slightly crispy.
 
+**Original Macros:** 
 **Source Files:** bee77fa455ed4f748e21e122de0a1ef6.m4a

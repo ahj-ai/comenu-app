@@ -2,7 +2,18 @@
 
 Crunchy fried rice blocks topped with fresh spicy tuna and creamy avocado.
 
-**Macros:** Not specified
+**Protein:** Tuna | **Dairy-Free:** Yes | **Prep Time:** 20 mins
+
+## Tags
+- **Culinary Structure:** Quick / Under 20 Mins
+- **Macro Profile:** Healthy Fats / Recovery
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Sushi rice
@@ -21,4 +32,5 @@ Crunchy fried rice blocks topped with fresh spicy tuna and creamy avocado.
 3. Mix tuna with Sriracha and mayo.
 4. Top rice with avocado, spicy tuna, and a slice of jalapeño.
 
+**Original Macros:** Not specified
 **Source Files:** 27043ad2efc54621b3413dae10cf6f8e.aac

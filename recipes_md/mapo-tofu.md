@@ -2,7 +2,18 @@
 
 A simple, protein-packed version of the classic Chinese dish Mapo Tofu.
 
-**Macros:** High protein
+**Protein:** Beef | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Ground beef
@@ -23,4 +34,5 @@ A simple, protein-packed version of the classic Chinese dish Mapo Tofu.
 6. Add the tofu at the end and gently mix everything together.
 7. Let it simmer before serving.
 
+**Original Macros:** High protein
 **Source Files:** 568ffb5fa30a4bc3a461672082ad203d.m4a

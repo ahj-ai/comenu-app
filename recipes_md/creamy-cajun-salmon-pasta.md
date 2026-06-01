@@ -2,7 +2,18 @@
 
 Creamy Cajun salmon pasta made with tender seared salmon bites tossed in a rich tomato-cream sauce, Cajun spices, garlic, and a splash of lemon for balance.
 
-**Macros:** Not specified
+**Protein:** Salmon | **Dairy-Free:** No | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Healthy Fats / Recovery
+- **Primary Stores:** Sprouts
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Salmon (1 lb, cubed)
@@ -31,4 +42,5 @@ Creamy Cajun salmon pasta made with tender seared salmon bites tossed in a rich 
 5. Toss in pasta, then fold in salmon.
 6. Finish with parsley.
 
+**Original Macros:** 
 **Source Files:** IMG_0108.PNG

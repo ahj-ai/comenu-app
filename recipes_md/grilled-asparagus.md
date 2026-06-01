@@ -2,7 +2,18 @@
 
 Simple grilled asparagus seasoned with olive oil, salt, and pepper.
 
-**Macros:** Not specified
+**Protein:** None | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Healthy Fats / Recovery
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - 1 bundle of asparagus, ends trimmed off
@@ -19,4 +30,5 @@ Simple grilled asparagus seasoned with olive oil, salt, and pepper.
 4. Toss the potatoes in avocado oil. Generously season with salt & black pepper.
 5. Air fry at 390 degrees for 20 minutes, flipping halfway through.
 
+**Original Macros:** 
 **Source Files:** IMG_0119.PNG

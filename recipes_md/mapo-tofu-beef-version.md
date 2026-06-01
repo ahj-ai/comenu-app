@@ -2,7 +2,18 @@
 
 Step-by-step tutorial for comforting and high-protein mapo tofu.
 
-**Macros:** ~490 calories | ~65g of protein
+**Protein:** Beef | **Dairy-Free:** Yes | **Prep Time:** 20 mins
+
+## Tags
+- **Culinary Structure:** Quick / Under 20 Mins
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts, Safeway
+
+## Normalized Macros
+- **Calories:** 490.0
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Grass-fed organic ground beef
@@ -15,5 +26,7 @@ Step-by-step tutorial for comforting and high-protein mapo tofu.
 - Ginger
 
 ## Steps
+1. N/A
 
+**Original Macros:** ~490 calories | ~65g of protein
 **Source Files:** IMG_0125.PNG

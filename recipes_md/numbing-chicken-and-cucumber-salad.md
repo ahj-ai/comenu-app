@@ -2,7 +2,18 @@
 
 A spicy and numbing Sichuan-inspired chicken salad from the 50/30 Low Cal series.
 
-**Macros:** Over 50g protein, low calorie
+**Protein:** Chicken | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch, Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus, High-Volume Low-Cal
+- **Primary Stores:** Sprouts, Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** 50.0g
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Chicken breast
@@ -44,4 +55,5 @@ A spicy and numbing Sichuan-inspired chicken salad from the 50/30 Low Cal series
 8. Slice cucumber on an angle into thick strips.
 9. Scatter cucumbers on a platter, top with sliced chicken, and pour over the sauce. Finish with coriander, spring onions, and sesame seeds. Serve with warm rice.
 
+**Original Macros:** Over 50g protein, low calorie
 **Source Files:** 09657f8412b7477a9a96bbf23320f5a6.m4a, IMG_0137.PNG, IMG_0138.PNG

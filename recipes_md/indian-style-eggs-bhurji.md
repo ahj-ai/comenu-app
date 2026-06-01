@@ -2,7 +2,18 @@
 
 An incredible and flavorful Indian scrambled egg dish made in a single pan with aromatic spices.
 
-**Macros:** Not specified
+**Protein:** Egg | **Dairy-Free:** No | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Eggs
@@ -28,4 +39,5 @@ An incredible and flavorful Indian scrambled egg dish made in a single pan with 
 6. Whisk the eggs and gently fold them into the mixture, cooking until soft.
 7. Garnish with fresh cilantro and optional cheese.
 
+**Original Macros:** 
 **Source Files:** 8eee927c625d4959adbf108320e0cdb3.m4a

@@ -2,7 +2,18 @@
 
 A high-volume, low-calorie savory snack from the Deli Container Snack Series (DCSS).
 
-**Macros:** 222 calories | 31g P | 16g C | 4g F
+**Protein:** Tuna | **Dairy-Free:** No | **Prep Time:** 20 mins
+
+## Tags
+- **Culinary Structure:** Quick / Under 20 Mins
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** 222.0
+- **Protein:** 31.0g
+- **Carbs:** 16.0g
+- **Fat:** 4.0g
 
 ## Ingredients
 - 1 whole cucumber
@@ -19,4 +30,5 @@ A high-volume, low-calorie savory snack from the Deli Container Snack Series (DC
 2. Combine all of the ingredients in a deli container.
 3. Put a lid on, shake it all up, and enjoy.
 
+**Original Macros:** 222 calories | 31g P | 16g C | 4g F
 **Source Files:** IMG_0158.PNG

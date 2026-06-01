@@ -2,7 +2,18 @@
 
 A high-protein Mapo Tofu variation using eggs and silken tofu.
 
-**Macros:** 40-50g protein
+**Protein:** Chicken | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** 50.0g
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - 300g of silken tofu
@@ -19,4 +30,5 @@ A high-protein Mapo Tofu variation using eggs and silken tofu.
 4. Add mapo minced pork on top of tofu.
 5. Top with green onions and chili oil.
 
+**Original Macros:** 40-50g protein
 **Source Files:** IMG_0124.PNG

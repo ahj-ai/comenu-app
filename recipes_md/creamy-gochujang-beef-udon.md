@@ -2,7 +2,18 @@
 
 A flavorful and creamy udon dish with a spicy gochujang and silken tofu sauce.
 
-**Macros:** 604 Calories | 49gP | 56gC | 18gF
+**Protein:** Chicken | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** One-Pan / Skillet
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** 604.0
+- **Protein:** 49.0g
+- **Carbs:** 56.0g
+- **Fat:** 18.0g
 
 ## Ingredients
 - 175g Extra Lean Ground Beef (Raw Weight)
@@ -26,4 +37,5 @@ A flavorful and creamy udon dish with a spicy gochujang and silken tofu sauce.
 5. Boil udon noodles according to package instructions.
 6. Combine the udon noodles, blended silken tofu sauce and ground beef mixture and enjoy!
 
+**Original Macros:** 604 Calories | 49gP | 56gC | 18gF
 **Source Files:** IMG_0113.PNG

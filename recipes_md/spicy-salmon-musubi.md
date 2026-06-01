@@ -2,7 +2,18 @@
 
 A pocket-sized version of a classic spicy salmon bowl with masago and torched mayo from the Season 3 Musubi series.
 
-**Macros:** Not specified
+**Protein:** Salmon | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch, Bowl / Multi-Component
+- **Macro Profile:** Healthy Fats / Recovery
+- **Primary Stores:** Sprouts
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Salmon
@@ -37,4 +48,5 @@ A pocket-sized version of a classic spicy salmon bowl with masago and torched ma
 11. Torch the mayo until slightly charred.
 12. Wrap with nori sheet with 'shiny' side outside and 'rough' side inside.
 
+**Original Macros:** Not specified
 **Source Files:** 7b3961583e2543acb4dc6711eeb8e65a.m4a, IMG_0144.PNG

@@ -2,7 +2,18 @@
 
 A pasta dish inspired by In N Out's animal style flavors.
 
-**Macros:** 680 Cals | 58g Protein per serving (Makes 5 servings)
+**Protein:** Beef | **Dairy-Free:** No | **Prep Time:** 20 mins
+
+## Tags
+- **Culinary Structure:** Quick / Under 20 Mins
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** 680.0
+- **Protein:** 58.0g
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - 1 box pasta
@@ -22,4 +33,5 @@ A pasta dish inspired by In N Out's animal style flavors.
 3. Cook ground beef and sauté onions in oil.
 4. Combine pasta, beef, onions, cheese sauce, and animal sauce. Finish with parsley.
 
+**Original Macros:** 680 Cals | 58g Protein per serving (Makes 5 servings)
 **Source Files:** IMG_0129.PNG

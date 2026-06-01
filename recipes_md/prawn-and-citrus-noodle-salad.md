@@ -2,7 +2,18 @@
 
 Episode 11 of 50-30 Local, featuring a high-protein, low-calorie noodle salad with prawns and citrus.
 
-**Macros:** Protein: >50g, Time: <30 mins
+**Protein:** Prawn | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch, Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus, Healthy Fats / Recovery
+- **Primary Stores:** Sprouts
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** 50.0g
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Prawns
@@ -44,4 +55,5 @@ Episode 11 of 50-30 Local, featuring a high-protein, low-calorie noodle salad wi
 9. Cook noodles in boiling salted water for 2 minutes, drain, and rinse under cold water.
 10. Combine noodles, veggies, and prawns in a bowl. Pour over the dressing, mix, and enjoy.
 
+**Original Macros:** {'Protein': '>50g', 'Time': '<30 mins'}
 **Source Files:** ab5fd6cda25243a393ec702ff72dff67.m4a, IMG_0131.PNG, IMG_0132.PNG

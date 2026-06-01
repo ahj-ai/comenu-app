@@ -2,7 +2,18 @@
 
 Episode 10 of 50-30 Local, featuring a high-protein chicken salad with a honey soy dressing.
 
-**Macros:** Protein: 50g, Time: <30 mins
+**Protein:** Chicken | **Dairy-Free:** No | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch, Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus, Healthy Fats / Recovery
+- **Primary Stores:** Sprouts, Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** 50.0g
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - Chicken
@@ -43,4 +54,5 @@ Episode 10 of 50-30 Local, featuring a high-protein chicken salad with a honey s
 8. Combine all vegetables in a bowl, cover with dressing, and mix well.
 9. Divide between bowls, top with the chicken, and finish with tajin, sesame seeds, and crispy onions.
 
+**Original Macros:** {'Protein': '50g', 'Time': '<30 mins'}
 **Source Files:** d3b74fbd376c4c32b69297f58dd04398.m4a, IMG_0134.PNG, IMG_0135.PNG

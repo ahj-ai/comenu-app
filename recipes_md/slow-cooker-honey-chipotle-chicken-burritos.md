@@ -2,7 +2,18 @@
 
 High protein, meal-prep friendly burritos made with tender shredded chicken in a creamy chipotle sauce.
 
-**Macros:** 455-531 Calories | 50g-65g Protein | 4g-19g Fat | 40g-52g Carbs per burrito
+**Protein:** Chicken | **Dairy-Free:** No | **Prep Time:** 480 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch, Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus, Healthy Fats / Recovery
+- **Primary Stores:** Safeway
+
+## Normalized Macros
+- **Calories:** 493.0
+- **Protein:** 57.5g
+- **Carbs:** 46.0g
+- **Fat:** 11.5g
 
 ## Ingredients
 - 60oz Chicken Breast (1700g)
@@ -27,4 +38,5 @@ High protein, meal-prep friendly burritos made with tender shredded chicken in a
 5. Assemble the burritos by adding the chicken mixture and fat-free mozzarella to the tortillas.
 6. Optionally add avocado or extra cheese before rolling.
 
+**Original Macros:** 455-531 Calories | 50g-65g Protein | 4g-19g Fat | 40g-52g Carbs per burrito
 **Source Files:** IMG_0160.PNG, IMG_0162.PNG

@@ -2,7 +2,18 @@
 
 Refreshing summer rolls filled with seasoned extra lean ground beef and served with a high-protein peanut dipping sauce.
 
-**Macros:** High protein
+**Protein:** Beef | **Dairy-Free:** Yes | **Prep Time:** 30 mins
+
+## Tags
+- **Culinary Structure:** Meal Prep / Batch, Bowl / Multi-Component
+- **Macro Profile:** Lean Protein Focus
+- **Primary Stores:** Sprouts, Safeway
+
+## Normalized Macros
+- **Calories:** N/A
+- **Protein:** N/A
+- **Carbs:** N/A
+- **Fat:** N/A
 
 ## Ingredients
 - 2 lbs extra lean ground beef
@@ -44,4 +55,5 @@ Refreshing summer rolls filled with seasoned extra lean ground beef and served w
 9. Fill with cooked beef, grated carrots, green onions, cilantro, jalapeño, and baby greens.
 10. Roll up tightly and serve with the peanut dipping sauce.
 
+**Original Macros:** High protein
 **Source Files:** 78334a4667774707847297b02939e053.m4a, IMG_0177.PNG
