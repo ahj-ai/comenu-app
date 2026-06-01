@@ -1,28 +1,21 @@
-# Project: CoMenu Recipe Extraction
+# Project: CoMenu - Smart Household Meal Planning
 
 ## Goal
-Autonomously extract recipe data from a large collection of media files (MP4 videos, AAC audio, and PNG screenshots) and consolidate them into a structured JSON format. This data will likely power the "CoMenu" application.
+Autonomously develop a full-stack web application ("CoMenu") that enables partners to co-plan household meals using a digital cookbook curated from AI-extracted recipe data.
 
 ## Core Mandates
-- **Accuracy:** Ensure transcriptions and OCR results are high-fidelity.
-- **Structure:** All output must follow a consistent JSON schema (Title, Description, Ingredients, Steps, Macros).
-- **Efficiency:** Use subagents for batch processing to manage high-volume data and context limits.
+- **Scalability:** The app should handle hundreds of recipes efficiently.
+- **Shared State:** Use Supabase for real-time synchronization between household members.
+- **AI Intelligence:** Leverage Gemini 3.1 Flash Lite for meal planning and Nano Banana for food photography generation.
 
 ## Architectural Decisions
-- **Batch Processing:** Media files are grouped into batches and processed by `generalist` subagents to prevent session fatigue and hitting turn limits.
-- **Model Selection:** Prioritize Gemini Pro (via subagents) for complex extraction tasks (video analysis, audio transcription, image OCR).
-- **Incremental Progress:** Save results into `recipes_batch_X.json` files before final consolidation.
+- **Framework:** Next.js 15 (App Router, TypeScript) in the `comenu-app-gemini` directory.
+- **Database:** Supabase (Postgres) with Row Level Security (RLS) for household privacy.
+- **AI Integration:** RAG-lite planning logic that feeds local cookbook metadata directly into Gemini prompts.
+- **Visuals:** AI-generated 4K food photography for all recipes via the `generate-images.js` utility.
 
-## Workflow
-1. **Inventory:** List all media files in the workspace.
-2. **Delegation:** Divide files into manageable batches (e.g., 20-40 files) and invoke subagents.
-3. **Extraction:** Subagents analyze media, extract recipe details, and return structured JSON.
-4. **Validation:** Verify extracted JSON for schema compliance.
-5. **Consolidation:** Merge all batch JSONs into a single `recipes.json`.
-
-## Current Status (May 31, 2026)
-- Past session analysis complete.
-- All media files (MP4, AAC, PNG) processed in batches.
-- Audio extraction from large MP4 files completed using `avconvert`.
-- All batch JSON files consolidated into a final `recipes.json`.
-- **Project Complete:** 47 recipes extracted and structured.
+## Current Status (June 1, 2026)
+- **Phase 1 (Extraction) Complete:** 47 recipes extracted from media files.
+- **Phase 2 (Web App V1) Complete:** Core Next.js application built with Cookbook, Planner, and Auth.
+- **Phase 3 (Visual Polish) In Progress:** AI image generation script ready; UI updated for high-contrast/mobile readability.
+- **Pending:** Add `image_url` column to Supabase; Provide GitHub remote URL for initial push.
