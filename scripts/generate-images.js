@@ -66,7 +66,7 @@ async function generateImages() {
       }
       
       // Small delay to avoid rate limiting
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      await new Promise(resolve => setTimeout(resolve, 5000));
     }
     
     console.log("All done!");
