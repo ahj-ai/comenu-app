@@ -23,16 +23,29 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "No recipes found in the database. Please run the seed script." }, { status: 400 });
     }
 
-    const model = genAI.getGenerativeModel({ 
+    const { data: ratings } = await supabase
+      .from('meal_ratings')
+      .select('recipe_id, rating');
+
+    const lovedIds = new Set((ratings || []).filter(r => r.rating === 1).map(r => r.recipe_id));
+    const dislikedIds = new Set((ratings || []).filter(r => r.rating === -1).map(r => r.recipe_id));
+    const lovedTitles = recipes.filter(r => lovedIds.has(r.id)).map(r => r.title);
+    const dislikedTitles = recipes.filter(r => dislikedIds.has(r.id)).map(r => r.title);
+
+    const model = genAI.getGenerativeModel({
       model: "gemini-3.1-flash-lite"
     });
 
     const prompt = `
       You are an expert meal planner. You MUST return a valid JSON object.
-      
+
       CONTEXT:
       Available Recipes (ID and Title):
       ${recipes.map(r => `- ID: ${r.id}, Title: ${r.title}`).join('\n')}
+
+      HOUSEHOLD RATINGS (use these to guide selections):
+      - Loved recipes — prioritize these: ${lovedTitles.length > 0 ? lovedTitles.join(', ') : 'None yet'}
+      - Disliked recipes — avoid these: ${dislikedTitles.length > 0 ? dislikedTitles.join(', ') : 'None yet'}
 
       USER PREFERENCES:
       - Moods/Feelings: ${feeling}
