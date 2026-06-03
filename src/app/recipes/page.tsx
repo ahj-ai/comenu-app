@@ -3,13 +3,20 @@
 import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase'
 import Link from 'next/link'
-import { Search, Filter, Clock, Flame, BookOpen } from 'lucide-react'
+import { Search, Filter, Clock, Flame, BookOpen, Sparkles, Loader2, X } from 'lucide-react'
 
 export default function RecipesPage() {
   const [recipes, setRecipes] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedProtein, setSelectedProtein] = useState('All')
+
+  // Import Modal State
+  const [isImportModalOpen, setIsImportModalOpen] = useState(false)
+  const [importUrl, setImportUrl] = useState('')
+  const [caption, setCaption] = useState('')
+  const [isImporting, setIsImporting] = useState(false)
+  const [importError, setImportUrlError] = useState<string | null>(null)
 
   const supabase = createClient()
 
@@ -18,7 +25,7 @@ export default function RecipesPage() {
       const { data, error } = await supabase
         .from('recipes')
         .select('*')
-        .order('title', { ascending: true })
+        .order('created_at', { ascending: false })
 
       if (error) console.error('Error fetching recipes:', error)
       else setRecipes(data || [])
@@ -26,6 +33,40 @@ export default function RecipesPage() {
     }
     fetchRecipes()
   }, [supabase])
+
+  const handleImport = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!importUrl) return
+    
+    setIsImporting(true)
+    setImportUrlError(null)
+    
+    try {
+      const res = await fetch('/api/import-recipe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url: importUrl, caption })
+      })
+      
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || 'Failed to import')
+      
+      // Success! Refresh list and close modal
+      const { data: newRecipes } = await supabase
+        .from('recipes')
+        .select('*')
+        .order('created_at', { ascending: false })
+      
+      setRecipes(newRecipes || [])
+      setIsImportModalOpen(false)
+      setImportUrl('')
+      setCaption('')
+    } catch (err: any) {
+      setImportUrlError(err.message)
+    } finally {
+      setIsImporting(false)
+    }
+  }
 
   const filteredRecipes = recipes.filter(recipe => {
     const matchesSearch =
@@ -100,12 +141,13 @@ export default function RecipesPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-4">
                     <div className="flex items-center gap-1.5 mb-2">
-                      {recipe.metadata?.primary_protein && (
-                        <span className="text-[9px] font-black uppercase tracking-widest bg-white/20 backdrop-blur-sm px-2 py-0.5 rounded border border-white/20 text-white">
-                          {recipe.metadata.primary_protein}
-                        </span>
-                      )}
                       <span className="text-[9px] font-black uppercase tracking-widest bg-amber-500/90 px-2 py-0.5 rounded text-white">
+                        {recipe.macros_normalized?.calories || '—'} cal
+                      </span>
+                      <span className="text-[9px] font-black uppercase tracking-widest bg-emerald-500/90 px-2 py-0.5 rounded text-white border border-white/10">
+                        {recipe.macros_normalized?.protein_g ? `${recipe.macros_normalized.protein_g}g Pro` : '—'}
+                      </span>
+                      <span className="text-[9px] font-black uppercase tracking-widest bg-white/10 backdrop-blur-sm px-2 py-0.5 rounded border border-white/10 text-white">
                         {recipe.metadata?.prep_time_mins || '30'}m
                       </span>
                     </div>
@@ -117,15 +159,24 @@ export default function RecipesPage() {
               ) : (
                 /* No-image fallback — clean warm card */
                 <div className="aspect-[4/5] bg-white border border-stone-200 rounded-2xl flex flex-col justify-between p-4 group-hover:border-orange-200 transition-colors">
-                  <div className="w-10 h-10 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center">
-                    <BookOpen className="w-5 h-5 text-amber-500" />
+                  <div className="flex justify-between items-start">
+                    <div className="w-10 h-10 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center">
+                      <BookOpen className="w-5 h-5 text-amber-500" />
+                    </div>
+                    <div className="flex flex-col items-end">
+                      <span className="text-[8px] font-black uppercase tracking-tighter text-stone-400">Yield</span>
+                      <span className="text-[10px] font-bold text-stone-600 leading-none">2 Servings</span>
+                    </div>
                   </div>
                   <div className="space-y-2">
-                    {recipe.metadata?.primary_protein && (
-                      <span className="text-[9px] font-black uppercase tracking-widest text-stone-400">
-                        {recipe.metadata.primary_protein}
+                    <div className="flex flex-wrap gap-1">
+                      <span className="text-[8px] font-black uppercase tracking-widest bg-amber-50 text-amber-600 px-1.5 py-0.5 rounded">
+                        {recipe.macros_normalized?.calories || '—'} cal
                       </span>
-                    )}
+                      <span className="text-[8px] font-black uppercase tracking-widest bg-emerald-50 text-emerald-600 px-1.5 py-0.5 rounded">
+                        {recipe.macros_normalized?.protein_g || '—'}g Pro
+                      </span>
+                    </div>
                     <h3 className="font-bold text-sm leading-tight text-slate-900 group-hover:text-orange-600 transition-colors line-clamp-3">
                       {recipe.title}
                     </h3>
@@ -153,6 +204,89 @@ export default function RecipesPage() {
             >
               Clear all filters
             </button>
+          </div>
+        </div>
+      )}
+
+      {/* Magic Import FAB */}
+      <button
+        onClick={() => setIsImportModalOpen(true)}
+        className="fixed bottom-8 right-8 w-16 h-16 bg-amber-500 text-white rounded-full shadow-2xl flex items-center justify-center hover:bg-amber-600 transition-all active:scale-95 group z-40"
+      >
+        <Sparkles className="w-6 h-6 group-hover:rotate-12 transition-transform" />
+      </button>
+
+      {/* Import Modal */}
+      {isImportModalOpen && (
+        <div className="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-3xl w-full max-w-lg overflow-hidden shadow-2xl animate-in zoom-in-95 duration-200">
+            <div className="p-8 space-y-6">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-amber-100 rounded-2xl flex items-center justify-center text-amber-600">
+                    <Sparkles className="w-6 h-6" />
+                  </div>
+                  <h2 className="text-2xl font-black text-slate-900">Magic Import</h2>
+                </div>
+                <button
+                  onClick={() => { setIsImportModalOpen(false); setImportUrl(''); setCaption('') }}
+                  className="p-2 hover:bg-slate-100 rounded-full text-slate-400"
+                >
+                  <X className="w-6 h-6" />
+                </button>
+              </div>
+
+              <p className="text-slate-500 font-medium leading-relaxed">
+                Paste an Instagram or TikTok URL below, then add the caption for best results.
+              </p>
+
+              <form onSubmit={handleImport} className="space-y-4">
+                <div className="space-y-2">
+                  <label className="text-xs font-black uppercase tracking-widest text-stone-400">Social Media URL</label>
+                  <input
+                    type="url"
+                    required
+                    placeholder="https://www.instagram.com/reel/..."
+                    className="w-full p-4 border border-stone-200 rounded-2xl focus:ring-2 focus:ring-amber-500/20 focus:border-orange-400 outline-none transition-all font-medium text-slate-600"
+                    value={importUrl}
+                    onChange={(e) => setImportUrl(e.target.value)}
+                  />
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-xs font-black uppercase tracking-widest text-stone-400">Recipe Caption <span className="normal-case font-medium tracking-normal text-stone-400">(optional but recommended)</span></label>
+                  <textarea
+                    rows={4}
+                    placeholder="Paste the caption or recipe text from the post..."
+                    className="w-full p-4 border border-stone-200 rounded-2xl focus:ring-2 focus:ring-amber-500/20 focus:border-orange-400 outline-none transition-all font-medium text-slate-600 resize-none"
+                    value={caption}
+                    onChange={(e) => setCaption(e.target.value)}
+                  />
+                  <p className="text-xs text-amber-600 font-medium">Adding the caption prevents AI hallucination</p>
+                </div>
+
+                {importError && (
+                  <p className="text-sm font-bold text-red-500 bg-red-50 p-4 rounded-xl border border-red-100">
+                    {importError}
+                  </p>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={isImporting}
+                  className="w-full bg-slate-950 text-white font-black py-5 rounded-2xl hover:bg-slate-800 disabled:opacity-50 transition-all flex items-center justify-center gap-3 shadow-xl"
+                >
+                  {isImporting ? (
+                    <>
+                      <Loader2 className="w-5 h-5 animate-spin" />
+                      Gemini is watching...
+                    </>
+                  ) : (
+                    "Import into Cookbook"
+                  )}
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       )}
